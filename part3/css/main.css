@@ -1,0 +1,70 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+article {
+	width: 50em;
+	margin: auto;
+	border-bottom: 2px solid #d3d3d3;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+	text-transform: capitalize;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	margin-right: 60px;
+	width: calc((100% - 300px)/4);
+}
+
+a:first-of-type {
+	margin-left: 60px;
+}
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 2em;
+  color: #d3d3d3;
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+}
+
+figcaption {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+p {
+	text-align: justify;
+}
+
+.footer {
+	width: 50em;
+	margin: auto;
+}
